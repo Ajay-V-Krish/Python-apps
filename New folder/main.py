@@ -2,12 +2,12 @@ from tkinter import *
 from tkinter import ttk
 import sqlite3
 
-'''db = sqlite3.connect("Student.db")
-curses = db.cursor()
-curses.execute("CREATE TABLE IF NOT EXISTS Student(ID INTEGER, NAME VARCHAR(20), AGE INTEGER, DOB VARCHAR(20), GENDER VARCHAR(20), CITY VARCHAR(20))")
-db.commit()
-db.close()
-print('table created')'''
+# db = sqlite3.connect("Student.db")
+# curses = db.cursor()
+# curses.execute("CREATE TABLE IF NOT EXISTS Student(ID INTEGER, NAME VARCHAR(20), AGE INTEGER, DOB VARCHAR(20), GENDER VARCHAR(20), CITY VARCHAR(20))")
+# db.commit()
+# db.close()
+# print('table created')
 
 class Student:
     def __init__(self, main):
